@@ -1,5 +1,9 @@
 # Min Portfolio - U02
 
+Länken till Netlify:
+
+**Live demo:** https://begimai-portfolio.netlify.app/
+
 I detta projekt har jag utvecklat en personlig portfoliosida med HTML, CSS och JavaScript.
 Syftet var att skapa en modern och interaktiv webbplats som presenterar mig, min erfarenhet och mina tidigare projekt.
 
@@ -30,7 +34,7 @@ Just nu visas endast projektens namn och beskrivning. Sedan vidare skulle man ku
     Jag är nöjd med projektet eftersom jag har utvecklat och designat sidan själv från grunden. Jag lärde mig mycket om JavaScript, API-anrop och GitHub hantering, och jag känner att min förståelse för frontend-utveckling har stärkts.
     Samtidigt ser jag att det finns flera områden där jag kan förbättra funktionalitet och design i framtiden, vilket gör projektet till en bra grund för vidare utveckling.
 
-    ● *Vad kan man utveckla m.h.a av javaScript inom frontend?*
+    ● ## Vad kan man utveckla m.h.a av javaScript inom frontend?
 
         JavaScript används dör att göra webbsidor interaktiva och dynamiska. exempel på vad man kan bygga:
 
@@ -52,7 +56,7 @@ Just nu visas endast projektens namn och beskrivning. Sedan vidare skulle man ku
 
         - Kort sagt: JS tar en statisk HTML/CSS-sida och gör den levande och användarvänlig.
 
-    ● *Vad är JSON och hur används det inom frontend?*
+    ● ## Vad är JSON och hur används det inom frontend?
 
     JSON (JavaScript Object Notation) är ett lättviksformat för att representera strukturdata (object och arrayer) i textform. Exempel:
 
@@ -77,7 +81,7 @@ Just nu visas endast projektens namn och beskrivning. Sedan vidare skulle man ku
 
     JSON är lättläst och språk-agnostiskt, vilket gör det perfekt för front-back kommunikation.
 
-    ● *Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?*
+    ● ## Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
 
     HTTP (HyperText Transfer Protocol) är protokollet webbläsaren använder för att kommunicera med servar. Grundläggande delar:
 

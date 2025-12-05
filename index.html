@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Begimai Satarova</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Begimai Satarova</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" oncklick="toggleMenu()">About</a></li>
+          <li><a href="#experience" oncklick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" oncklick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" oncklick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          src="./files/profile-pic.jpg"
+          alt="Begimai Satarova profile picture"
+          class="profile-pic"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Begimai Satarova</h1>
+        <p class="section__text__p2">Fullstack Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="location.href='#experience'">
+            View CV
+          </button>
+          <button class="btn btn-color-2" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <a
+            href="https://www.linkedin.com/in/begimai-satarova-725237200/"
+            target="_blank"
+          >
+            <img
+              src="./files/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              oncklick="location.href='https://linkedin.com/'"
+            />
+          </a>
+
+          <a href="https://github.com/BegimaiSa" target="_blank">
+            <img
+              src="./files/github.png"
+              alt="My Github profile"
+              class="icon"
+              oncklick="location.href='https://github.com/'"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+
+      <div class="section-container about-container">
+        <div class="about-left">
+          <img
+            src="./files/about-pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+
+        <div class="about-right">
+          <p>
+            I'm Begimai Satarova, a Fullstack Developer student based in
+            Stockholm. I enjoy building clean, intuitive websites and I'm always
+            exploring new things in JavaScript and modern web development.
+          </p>
+
+          <p>
+            My background in service and healthcare has taught me how to work
+            with people, take responsibility, and collaborate well in a team
+            skills that I bring with me into tech as I continue to grow as a
+            developer.
+          </p>
+          <ul class="about-list">
+            <li>🌱 Learning: HTML, CSS, JavaScript, Git</li>
+            <li>🎯 Goal: become a professional fullstack developer</li>
+            <li>🌍 Languages: Swedish, Russian, English, Kyrgyz</li>
+          </ul>
+        </div>
+      </div>
+      <img
+        src="./files/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">My Background</p>
+      <h1 class="title">Experience & Education</h1>
+      <div id="cv-container" class="section-container"></div>
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">My Work</p>
+      <h1 class="title">Projects</h1>
+      <div id="projects-container" class="projects-container"></div>
+      <p>More projects coming soon...</p>
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get In Touch</p>
+      <h1 class="title">Contact</h1>
+
+      <div class="section-container contact-container">
+        <div class="contact-info">
+          <p><strong>📍Location:</strong> Stockholm, Sweden</p>
+        </div>
+
+        <form class="contact-form" onsubmit="handleContactSubmit(event)">
+          <p id="contact-message" class="contact-message"></p>
+
+          <label>
+            Name
+            <input type="text" name="name" required />
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+
+          <label>
+            Message
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+
+          <button type="submit" class="btn btn-color-1">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <script src="./script.js" defer></script>
+  </body>
+</html>

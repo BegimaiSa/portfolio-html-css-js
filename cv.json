@@ -1,0 +1,47 @@
+{
+  "experience": [
+    {
+      "job": "Vårdbiträde",
+      "place": "Äldreomsorg, Stockholm",
+      "year": "2023-2024",
+      "tasks": [
+        "Stöttade äldre personer i deras vardag.",
+        "Bidrog till trygghet, service och ett varmt bemötande."
+      ]
+    },
+    {
+      "job": "Servitris",
+      "place": "Restaurang, Stockholm",
+      "year": "2022-2023",
+      "tasks": ["Servering, kundbemötande och kassahantering."]
+    },
+    {
+      "job": "Smyckessäljare",
+      "place": "Stockholm, Gamla stan",
+      "year": "2021-2022",
+      "tasks": [
+        "Kundservice, försäljning och kassahantering. Bidrog till god kundupplevelse och effektiv butiksmiljö."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Fullstackutvecklare JavaScript",
+      "school": "Yrkeshögskola CHAS Academy",
+      "year": "2025-pågående",
+      "description": "Fullstackutbildning JavaScript"
+    },
+    {
+      "title": "Kompletterande kurser",
+      "school": "Jensen Komvux, Stockholm",
+      "year": "2021-2024",
+      "description": "Kompletterande kurser på gymnasienivå för att stärka behörighet."
+    },
+    {
+      "title": "Gymnasiexamen (UHR)",
+      "school": "Universitets- och högskolerådet, Sverige",
+      "year": "2019",
+      "description": "Erkänd examen som ger behörighet för hogskolestudier i Sverige."
+    }
+  ]
+}

@@ -266,11 +266,12 @@ section {
 
 /* ABOUT SECTION */
 
-.about {
+#about {
   position: relative;
 }
 
 .about-container {
+  position: relative;
   display: flex;
   align-items: flex-start;
   gap: 3rem;
@@ -316,8 +317,20 @@ section {
 
 .arrow {
   position: absolute;
-  right: -5rem;
+  right: 2rem;
+  bottom: 1rem;
+  width: 40px;
+  cursor: pointer;
+}
+
+.icon.arrow {
+  position: absolute;
+  right: 2rem;
   bottom: 2.5rem;
+  height: 2rem;
+  z-index: 20;
+  display: block;
+  cursor: pointer;
 }
 
 /* CV */
